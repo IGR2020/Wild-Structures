@@ -1,0 +1,33 @@
+{
+    "name": "wild_structures:wild_village/roads",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "single_pool_element",
+                "processors": "minecraft:empty",
+                "location": "wild_structures:wild_village/roads/straight",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "single_pool_element",
+                "processors": "minecraft:empty",
+                "location": "wild_structures:wild_village/roads/curve",
+                "projection": "terrain_matching"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "processors": "minecraft:empty",
+                "location": "wild_structures:wild_village/roads/t_road",
+                "projection": "terrain_matching"
+            }
+        }
+    ]
+}
