@@ -1,0 +1,29 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": {
+                "type": "uniform",
+                "max": 8,
+                "min": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "wither_rose",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "poppy",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "gold_ingot",
+                    "weight": 2
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "wild_structures:wild_village/rare_roads",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "element_type": "single_pool_element",
+            "location": "wild_structures:wild_village/rare_road/rare_road1",
+            "processors": "minecraft:empty",
+            "projection": "terrain_matching"
+        }
+    }]
+}
